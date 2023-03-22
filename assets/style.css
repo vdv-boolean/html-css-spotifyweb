@@ -16,11 +16,13 @@ General Settings
 /* Layout Size */
 
 :root {
+    /* Desktop size */
     --desk-largewidth: 1430px;
     --desk-menuwidth: 230px;
     --desk-librarywidth: calc(var(--desk-largewidth) - var(--desk-menuwidth));
     --desk-navheight: 85px;
-
+    
+    /* Very small size */
     --xs-menuwidth: 3rem;
 }
 
