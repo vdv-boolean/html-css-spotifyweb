@@ -4,30 +4,30 @@ main {
 }
 
 .upgrade {
-    width: var(--desk-librarywidht);
+    width: var(--desk-librarywidth);
     height: var(--desk-navheight);
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: var();
     position: fixed;
     left: 230px;
     top: 0;
 }
 
 .menubar {
-    width: var(--desk-menuwidht);
+    width: var(--desk-menuwidth);
     height: calc(100vh - var(--desk-navheight));
     background-color: black;
 
 }
 
 .library {
-    width: var(--desk-librarywidht);
+    width: var(--desk-librarywidth);
     height: calc(100vh - var(--desk-navheight));
     background-color: #141922;
     overflow-y: scroll;
 }
 
 .player  {
-    width: var(--desk-largewidht);
+    width: var(--desk-largewidth);
     height: var(--desk-navheight);
     background-color: #282828;
     position: fixed;
