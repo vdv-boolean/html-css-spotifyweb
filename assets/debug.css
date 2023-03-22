@@ -19,7 +19,7 @@ main {
 
 }
 
-.library {
+.home {
     width: var(--desk-librarywidth);
     height: calc(100vh - var(--desk-navheight));
     background-color: var(--drkgrey);
