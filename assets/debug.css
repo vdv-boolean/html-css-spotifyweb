@@ -1,6 +1,7 @@
 
 main {
     display: flex;
+    flex-shrink: 1;
 }
 
 .upgrade {
@@ -8,15 +9,14 @@ main {
     height: var(--desk-navheight);
     background-color: var(--xblack);
     position: fixed;
-    left: 230px;
+    left: var(--desk-menuwidth);
     top: 0;
 }
 
 .menubar {
-    width: var(--desk-menuwidth);
+    min-width: var(--desk-menuwidth);
     height: calc(100vh - var(--desk-navheight));
     background-color: black;
-
 }
 
 .home {
@@ -43,8 +43,6 @@ main {
 }
 
 .element {
-    height: 240px;
-    width: 180px;
     /* background-color: salmon; */
 }
 
