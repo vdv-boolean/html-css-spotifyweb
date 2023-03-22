@@ -11,3 +11,13 @@ General Settings
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* Layout Size */
+
+:root {
+    --desk-largewidht: 1430px;
+    --desk-menuwidht: 230px;
+    --desk-librerywidh: calc(var(--desk-largewidht)-var(--desk-menuwidht));
+    --desk-navheight: 85px;
+}
