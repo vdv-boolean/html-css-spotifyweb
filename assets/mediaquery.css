@@ -1,4 +1,4 @@
-@media screen and (max-width:878px) {
+@media screen and (max-width:1100px) {
     /* TO DO: add wrap to nav-bar */
     .elements {
         flex-wrap: wrap;
@@ -10,7 +10,7 @@
     }
 }
 
-@media screen and (max-width:639px) {
+@media screen and (max-width:700px) {
     /* TO DO: add wrap to nav-bar */
     
     .element {
@@ -19,7 +19,7 @@
     }
 }
 
-@media screen and (max-width:525px) {
+@media screen and (max-width:600px) {
     /* TO DO: add wrap to nav-bar */
     
     .menubar {
