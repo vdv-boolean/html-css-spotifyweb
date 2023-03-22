@@ -22,18 +22,24 @@ main {
 .home {
     width: var(--desk-librarywidth);
     height: calc(100vh - var(--desk-navheight));
-    background-color: var(--drkgrey);
+    background-color: var(--night);
     overflow-y: scroll;
 }
 
 .player  {
     width: var(--desk-largewidt);
     height: var(--desk-navheight);
-    background-color: var(--night);
+    background-color: var(--drkgrey);
     position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.nav-bar {
+    height: auto;
+    max-width: 630px;
+    margin: auto;
 }
 
 

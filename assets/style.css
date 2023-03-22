@@ -32,6 +32,31 @@ General Settings
     --green: #adff2f;
 }
 
+/************************************************
+Main
+************************************************/
+
+/* Home */
+
+.home {
+    padding-top: calc(var(--desk-navheight) + 1rem);
+}
+
+/* Nav-bar */
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: var(--litgrey);
+}
 
 
 
