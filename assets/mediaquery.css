@@ -1,5 +1,34 @@
 @media screen and (max-width:878px) {
+    /* TO DO: add wrap to nav-bar */
     .elements {
         flex-wrap: wrap;
     }
+
+    .element {
+        height: 240px;
+        max-width: calc(var(--desk-librarywidth) / 8);
+    }
 }
+
+@media screen and (max-width:639px) {
+    /* TO DO: add wrap to nav-bar */
+    
+    .element {
+        height: 240px;
+        max-width: calc(var(--desk-librarywidth) / 6.5);
+    }
+}
+
+@media screen and (max-width:525px) {
+    /* TO DO: add wrap to nav-bar */
+    
+    .menubar {
+        min-width: var(--xs-menuwidth);
+        max-width: var(--xs-menuwidth);
+    }
+
+    .upgrade {
+        left: var(--xs-menuwidth);
+    }
+}
+
