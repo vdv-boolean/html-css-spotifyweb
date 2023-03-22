@@ -18,6 +18,6 @@ General Settings
 :root {
     --desk-largewidht: 1430px;
     --desk-menuwidht: 230px;
-    --desk-librerywidh: calc(var(--desk-largewidht)-var(--desk-menuwidht));
+    --desk-librarywidht: calc(var(--desk-largewidht) - var(--desk-menuwidht));
     --desk-navheight: 85px;
 }
