@@ -25,6 +25,7 @@ General Settings
 /* Color Palette */
 
 :root {
+    --xblack: rgba(0, 0, 0, 0.3);
     --drkgrey: #282828;
     --litgrey: #a3a3a3;
     --night: #141922;
