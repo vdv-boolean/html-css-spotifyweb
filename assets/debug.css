@@ -4,8 +4,8 @@ main {
 }
 
 .upgrade {
-    width: 1200px;
-    height: 85px;
+    width: var(--desk-librarywidht);
+    height: var(--desk-navheight);
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
     left: 230px;
@@ -13,22 +13,22 @@ main {
 }
 
 .menubar {
-    width: 230px;
-    height: calc(100vh - 85px);
+    width: var(--desk-menuwidht);
+    height: calc(100vh - var(--desk-navheight));
     background-color: black;
 
 }
 
 .library {
-    width: 1200px;
-    height: calc(100vh - 85px);
+    width: var(--desk-librarywidht);
+    height: calc(100vh - var(--desk-navheight));
     background-color: #141922;
     overflow-y: scroll;
 }
 
 .player  {
-    width: 1430px;
-    height: 85px;
+    width: var(--desk-largewidht);
+    height: var(--desk-navheight);
     background-color: #282828;
     position: fixed;
     left: 0;
