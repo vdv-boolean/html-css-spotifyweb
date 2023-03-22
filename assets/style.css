@@ -65,6 +65,10 @@ Main
 
 /* Highlights */
 
+.highlights {
+    padding-inline: 1rem;
+}
+
 .section-name {
     color: white;
     font-size: 1.5rem;
@@ -81,6 +85,11 @@ Main
     display: flex;
     margin-top: 2rem;
     margin-bottom: 1rem;
+}
+
+.element {
+    height: 240px;
+    width: calc(var(--desk-librarywidth) / 6);
 }
 
 .element span {
