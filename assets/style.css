@@ -21,3 +21,13 @@ General Settings
     --desk-librarywidht: calc(var(--desk-largewidht) - var(--desk-menuwidht));
     --desk-navheight: 85px;
 }
+
+/* Color Palette */
+
+:root {
+    --drkgrey: #282828;
+    --litgrey: #a3a3a3;
+    --night: #141922;
+    --green: #adff2f;
+}
+
