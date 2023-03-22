@@ -63,35 +63,45 @@ Main
     font-size: 1rem;
 }
 
-/* Recenly Played */
+/* Recently Played section */
+/* && */
+/* Created for user section  */
+/* && */
+/* Most Popular Artist */
 
-.recently-played .section-name {
+.section-name {
     color: white;
     font-size: 1.5rem;
+    display: block;
+    padding-bottom: 0.5rem;
 }
 
-.recently-played .elements {
+.section-description {
+    color: var(--litgrey);
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.elements {
     display: flex;
 }
 
-.recently-played .element span {
+.element span {
     display: block;
     text-align: center;
 }
 
-.recently-played .metadata {
+.metadata-1 {
     color: white;
     font-size: 1.2rem;
     font-weight: 800;
 }
 
-.recently-played .artist {
+.metadata-2 {
     color: var(--litgrey);
     font-size: 1rem;
     font-weight: 800;
 }
-
-
 
 
 
