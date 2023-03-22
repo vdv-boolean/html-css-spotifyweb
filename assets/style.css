@@ -20,6 +20,8 @@ General Settings
     --desk-menuwidth: 230px;
     --desk-librarywidth: calc(var(--desk-largewidth) - var(--desk-menuwidth));
     --desk-navheight: 85px;
+
+    --xs-menuwidth: 3rem;
 }
 
 /* Color Palette */
