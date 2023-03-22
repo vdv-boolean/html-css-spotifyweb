@@ -1,0 +1,41 @@
+
+main {
+    display: flex;
+}
+
+.upgrade {
+    width: 1200px;
+    height: 85px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    left: 230px;
+    top: 0;
+}
+
+.menubar {
+    width: 230px;
+    height: calc(100vh - 85px);
+    background-color: black;
+
+}
+
+.library {
+    width: 1200px;
+    height: calc(100vh - 85px);
+    background-color: #141922;
+    overflow-y: scroll;
+}
+
+.player  {
+    width: 1430px;
+    height: 85px;
+    background-color: #282828;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+
