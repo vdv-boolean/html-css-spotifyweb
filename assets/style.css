@@ -63,11 +63,7 @@ Main
     font-size: 1rem;
 }
 
-/* Recently Played section */
-/* && */
-/* Created for user section  */
-/* && */
-/* Most Popular Artist */
+/* Highlights */
 
 .section-name {
     color: white;
@@ -79,11 +75,12 @@ Main
 .section-description {
     color: var(--litgrey);
     font-size: 1rem;
-    padding-bottom: 0.5rem;
 }
 
 .elements {
     display: flex;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .element span {
@@ -102,6 +99,12 @@ Main
     font-size: 1rem;
     font-weight: 800;
 }
+
+.round {
+    border-radius: 100%;
+}
+
+
 
 
 

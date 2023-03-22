@@ -45,13 +45,17 @@ main {
 .element {
     height: 240px;
     width: 180px;
-    background-color: salmon;
+    /* background-color: salmon; */
 }
 
 img {
     max-width: 100%;
     padding: 0.5rem;
 }
+
+
+
+
 
 
 
