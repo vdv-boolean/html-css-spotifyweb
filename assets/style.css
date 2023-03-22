@@ -44,6 +44,10 @@ Main
 
 /* Nav-bar */
 
+.nav-bar {
+    padding-bottom: 2rem;
+}
+
 .nav-bar ul {
     display: flex;
     justify-content: space-between;
@@ -56,7 +60,38 @@ Main
 .nav-bar a{
     text-decoration: none;
     color: var(--litgrey);
+    font-size: 1rem;
 }
+
+/* Recenly Played */
+
+.recently-played .section-name {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.recently-played .elements {
+    display: flex;
+}
+
+.recently-played .element span {
+    display: block;
+    text-align: center;
+}
+
+.recently-played .metadata {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.recently-played .artist {
+    color: var(--litgrey);
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+
 
 
 
