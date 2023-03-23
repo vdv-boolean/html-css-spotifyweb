@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="assets/style.css">
         <link rel="stylesheet" href="assets/debug.css">
         <link rel="stylesheet" href="assets/mediaquery.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
         <title>Spotify</title>
     </head>
     <body>
@@ -21,21 +22,28 @@
 
             <!-- Left-side vertical bar with user home and playlist -->
             <div class="menubar">
-                <img class="logo" src="img/logo.svg" alt="">
-                <ul>
+                <!-- Spotify Logo -->
+                <img class="logo" src="img/logo.svg" alt="Spotify Logo">
+                
+                <!-- Section list -->
+                <ul class="section">
                     <li>
-                        <img src="img/home.svg" alt="">
-                        Home
+                        <img src="img/home.svg" alt=""> Home
                     </li>
                     <li>
-                        <img src="img/search.svg" alt="">Cerca
+                        <img src="img/search.svg" alt=""> Cerca
                     </li>
                     <li>
-                        <img src="img/libreria.svg" alt="">La tua libreria</li>
+                        <img src="img/libreria.svg" alt=""> La tua libreria
+                    </li>
                 </ul>
-                <ul>
-                    <li>Playlist</li>
-                    <li>Crea Playlist</li>
+
+                <!-- Plalists and new playlist function-->
+                <ul class="playlist">
+                    <li class ="title">PLAYLIST</li>
+                    <li>
+                        <i class="fa-solid fa-square-plus"></i> Crea Playlist
+                    </li>
                     <li>Nome Playlist</li>
                     <li>Nome Playlist</li>
                     <li>Nome Playlist</li>
@@ -44,9 +52,13 @@
                     <li>Nome Playlist</li>
                     <li>Nome Playlist</li>
                 </ul>
+
+                <!-- Footer of nav bar with downlaod app link and account section link  -->
                 <div class="foot-nav">
-                    <a href="#">Installa app</a>
-                    <img src="img/profile.svg" alt="">
+                    <a class ="pseudo-element" href="#">
+                        <img src="img/download.svg" alt=""> Installa app
+                    </a>
+                    <img class ="user" src="img/profile.svg" alt="">
                 </div>
             </div>
 
