@@ -29,5 +29,14 @@
         max-width: 80%;
         padding: 0.5rem;
     }
+
+    .menubar .hide-on-xs,
+    .menubar .upper{
+        display: none;
+    }
+
+    .menubar .xs-view {
+        display: block;
+    }
 }
 
