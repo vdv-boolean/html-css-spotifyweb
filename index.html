@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="assets/mediaquery.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
         <title>Spotify</title>
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     </head>
     <body>
         <header>
@@ -22,24 +23,30 @@
 
             <!-- Left-side vertical bar with user home and playlist -->
             <div class="menubar">
-                <!-- Spotify Logo -->
-                <img class="logo" src="img/logo.svg" alt="Spotify Logo">
+
+                <!-- Spotify Logo for Desktop and other layouts-->
+                <img class="logo hide-on-xs" src="img/logo.svg" alt="Spotify Logo">
+                <!-- Spotify Logo for xs layout-->
+                <img class="logo-small xs-view" src="img/logo-small.svg" alt="Spotify Logo">
                 
                 <!-- Section list -->
                 <ul class="section">
                     <li>
-                        <img src="img/home.svg" alt=""> Home
+                        <img src="img/home.svg" alt="">
+                        <span class="hide-on-xs"> Home</span>
                     </li>
                     <li>
-                        <img src="img/search.svg" alt=""> Cerca
+                        <img src="img/search.svg" alt="">
+                        <span class="hide-on-xs"> Cerca</span>
                     </li>
                     <li>
-                        <img src="img/libreria.svg" alt=""> La tua libreria
+                        <img src="img/libreria.svg" alt="">
+                        <span class="hide-on-xs"> La tua libreria</span>
                     </li>
                 </ul>
 
                 <!-- Plalists and new playlist function-->
-                <ul class="playlist">
+                <ul class="playlist hide-on-xs">
                     <li class ="title">PLAYLIST</li>
                     <li>
                         <i class="fa-solid fa-square-plus"></i> Crea Playlist
@@ -55,10 +62,11 @@
 
                 <!-- Footer of nav bar with downlaod app link and account section link  -->
                 <div class="foot-nav">
-                    <a class ="pseudo-element" href="#">
-                        <img src="img/download.svg" alt=""> Installa app
-                    </a>
-                    <img class ="user" src="img/profile.svg" alt="">
+                    <div class="upper">
+                        <img src="img/download.svg" alt="">
+                        <a  class="hide-on-xs" href="#"> Installa app</a>
+                    </div>
+                    <img class="user" src="img/profile.svg" alt="">
                 </div>
             </div>
 
