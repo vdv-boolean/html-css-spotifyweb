@@ -21,7 +21,7 @@ General Settings
     --desk-menuwidth: 230px;
     --desk-librarywidth: calc(var(--desk-largewidth) - var(--desk-menuwidth));
     --desk-navheight: 85px;
-    
+
     /* Very small size */
     --xs-menuwidth: 3rem;
 }
@@ -59,12 +59,27 @@ Main
 
 .nav-bar li {
     list-style: none;
+    position: relative;
 }
 
-.nav-bar a{
+.nav-bar a {
     text-decoration: none;
     color: var(--litgrey);
     font-size: 1rem;
+}
+
+.nav-bar a:hover {
+    color: white;
+}
+
+.nav-bar .pseudo-element::after {
+    content: "";
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    bottom: -5px;
+    height: 3px;
+    background-color: var(--green);
 }
 
 /* Highlights */
@@ -86,14 +101,17 @@ Main
 }
 
 .elements {
-    display: flex;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
+    --cols: 6;
+    --gap: 1rem;
 
-.element {
-    height: 240px;
-    width: calc(var(--desk-librarywidth) / 6);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+}
+    
+.element	{
+    height: 230px;
+    flex: 0 0 calc((100% - (var(--cols) - 1) * var(--gap)) / var(--cols));
 }
 
 .element span {

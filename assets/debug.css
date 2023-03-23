@@ -37,7 +37,7 @@ main {
 }
 
 .nav-bar {
-    height: auto;
+    /* height: auto; */
     max-width: 630px;
     margin: auto;
 }

@@ -1,12 +1,7 @@
 @media screen and (max-width:1100px) {
     /* TO DO: add wrap to nav-bar */
-    .elements {
-        flex-wrap: wrap;
-    }
-
     .element {
-        height: 240px;
-        max-width: calc(var(--desk-librarywidth) / 8);
+        --cols: 4;
     }
 }
 
@@ -14,8 +9,7 @@
     /* TO DO: add wrap to nav-bar */
     
     .element {
-        height: 240px;
-        max-width: calc(var(--desk-librarywidth) / 6.5);
+        --cols: 2;
     }
 }
 
@@ -29,6 +23,11 @@
 
     .upgrade {
         left: var(--xs-menuwidth);
+    }
+
+    img {
+        max-width: 80%;
+        padding: 0.5rem;
     }
 }
 
