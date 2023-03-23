@@ -36,11 +36,23 @@ General Settings
     --green: #adff2f;
 }
 
+/* General Style */
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 /************************************************
 Main
 ************************************************/
 
-/* Home */
+/***********************
+Home
+***********************/
 
 .home {
     padding-top: calc(var(--desk-navheight) + 1rem);
@@ -58,18 +70,7 @@ Main
 }
 
 .nav-bar li {
-    list-style: none;
     position: relative;
-}
-
-.nav-bar a {
-    text-decoration: none;
-    color: var(--litgrey);
-    font-size: 1rem;
-}
-
-.nav-bar a:hover {
-    color: white;
 }
 
 .nav-bar .pseudo-element::after {
@@ -80,6 +81,15 @@ Main
     bottom: -5px;
     height: 3px;
     background-color: var(--green);
+}
+
+.nav-bar a {
+    color: var(--litgrey);
+    font-size: 1rem;
+}
+
+.nav-bar a:hover {
+    color: white;
 }
 
 /* Highlights */
@@ -134,6 +144,86 @@ Main
 .round {
     border-radius: 100%;
 }
+
+/***********************
+Menu bar
+***********************/
+
+.menubar {
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.menubar * {
+    color: var(--litgrey);
+}
+
+.menubar .logo {
+    width: 130px;
+    margin-bottom: 1.5rem;
+}
+
+.menubar li {
+    display: flex;
+    align-items: center;
+}
+
+.menubar .section img {
+    margin-right: 0.5rem;
+}
+
+.menubar .section li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ul:first-child a{
+    color: white;
+} */
+
+.menubar .playlist {
+    margin-top: 1.5rem;
+    flex-grow: 1;
+}
+
+.menubar .title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.menubar .playlist li {
+    margin-bottom: 1rem;
+}
+
+.menubar .playlist i {
+    font-size: 3rem;
+    margin-right: 0.5rem;
+}
+
+.menubar .upper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid var(--litgrey);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.menubar .upper img {
+    margin-right: 1rem;
+}
+
+.menubar .user {
+    aspect-ratio: 1 / 1;
+    background-color: var(--litgrey);
+    border-radius: 100%;
+}
+
+
+
+
 
 
 
