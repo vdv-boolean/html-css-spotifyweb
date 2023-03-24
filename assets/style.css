@@ -46,6 +46,8 @@ a {
     text-decoration: none;
 }
 
+
+
 /************************************************
 Main
 ************************************************/
@@ -211,8 +213,13 @@ Menu bar
     margin-bottom: 1rem;
 }
 
-.menubar .upper img {
+.menubar .foot-nav img {
     margin-right: 1rem;
+}
+
+.menubar .lower {
+    display: flex;
+    align-items: center;
 }
 
 .menubar .user {
@@ -222,7 +229,10 @@ Menu bar
 }
 
 
-
+.user-name::after {
+    content: " John Doe";
+    color: white;
+}
 
 
 
