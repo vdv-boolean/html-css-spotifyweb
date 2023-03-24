@@ -145,9 +145,28 @@ Home
     gap: var(--gap);
 }
     
-.element	{
+.element {
     height: 230px;
     flex: 0 0 calc((100% - (var(--cols) - 1) * var(--gap)) / var(--cols));
+
+}
+
+.hover {
+    position: relative;
+}
+
+.hover:hover::after {
+    font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f144";
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.element img:hover {
+    filter: brightness(60%);
 }
 
 .element span {
