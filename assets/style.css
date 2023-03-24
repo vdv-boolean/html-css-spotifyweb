@@ -17,7 +17,7 @@ General Settings
 
 :root {
     /* Desktop size */
-    --desk-largewidth: 1430px;
+    --desk-largewidth: 100%;
     --desk-menuwidth: 230px;
     --desk-librarywidth: calc(var(--desk-largewidth) - var(--desk-menuwidth));
     --desk-navheight: 85px;

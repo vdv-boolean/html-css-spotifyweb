@@ -27,7 +27,7 @@ main {
 }
 
 .player  {
-    width: var(--desk-largewidt);
+    width: var(--desk-largewidth);
     height: var(--desk-navheight);
     background-color: var(--drkgrey);
     position: fixed;
