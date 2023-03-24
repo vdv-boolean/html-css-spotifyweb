@@ -255,12 +255,18 @@ Player section
 .player .middle,
 .player .right {
     color: white;
+    --time-h: 6px;
 }
 
 .player .media-controls {
     display: flex;
     justify-content: space-between;
-    font: 20px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.player .media-controls .big {
+    font-size: 30px;
 }
 
 .player .time-info {
@@ -269,8 +275,6 @@ Player section
 }
 
 .player .timeline {
-    --time-h: 6px;
-
     height: var(--time-h);
     width: 425px;
     background-color: var(--mediumgrey);
