@@ -275,13 +275,16 @@ Player section
 .player {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-inline: 2rem;
+    justify-content: center;
+    gap: 1rem;
+    padding-inline: 1rem;
 }
 
 .player .left {
     display: flex;
-    color: var(--mediumgrey)
+    align-items: center;
+    color: var(--mediumgrey);
+    gap: 1rem;
 }
 
 .player .left img {
@@ -295,11 +298,21 @@ Player section
     --time-h: 6px;
 }
 
+.player .left,
+.player .right {
+    flex: 0 0 25%;
+}
+
+.player .middle {
+    flex: 0 0 50%;
+}
+
 .player .media-controls {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     font-size: 20px;
+    gap: 2rem;
 }
 
 .player .media-controls .big {
@@ -309,13 +322,14 @@ Player section
 .player .time-info {
     display: flex;
     align-items: center;
+    gap: 1rem;
 }
 
 .player .timeline {
     --time: 25%;
 
     height: var(--time-h);
-    width: 425px;
+    width: 100%;
     background-color: var(--mediumgrey);
     border-radius: calc(var(--time-h) / 2);
     position: relative;
@@ -357,14 +371,15 @@ Player section
 .player .right {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .player .volume {
     --volume: 75%;
 
     height: var(--time-h);
-    width: 125px;
+    width: 40%;
     background-color: var(--mediumgrey);
     border-radius: calc(var(--time-h) / 2);
     position: relative;
