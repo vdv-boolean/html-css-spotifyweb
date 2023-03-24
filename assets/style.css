@@ -54,6 +54,29 @@ Main
 ************************************************/
 
 /***********************
+Upgrade section
+***********************/
+
+.upgrade {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.upgrade a {
+    color: white;
+    font-size: 0.8rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem 0.5rem;
+}
+
+.upgrade a:hover {
+    transform: scale(120%);
+}
+
+/***********************
 Home
 ***********************/
 
