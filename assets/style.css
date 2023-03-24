@@ -151,11 +151,11 @@ Home
 
 }
 
-.hover {
+.element .hover {
     position: relative;
 }
 
-.hover:hover::after {
+.element .hover:hover::after {
     font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f144";
     font-size: 3rem;
     color: white;
@@ -309,6 +309,10 @@ Player section
 .player .left img {
     width: 45px;
     aspect-ratio: 1 / 1;
+}
+
+.player .hover:hover {
+    color: var(--green);
 }
 
 .player .middle,
