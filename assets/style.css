@@ -238,6 +238,8 @@ Player section
 .player {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding-inline: 2rem;
 }
 
 .player .left {
@@ -250,13 +252,15 @@ Player section
     aspect-ratio: 1 / 1;
 }
 
-.player .middle {
+.player .middle,
+.player .right {
     color: white;
 }
 
 .player .media-controls {
     display: flex;
     justify-content: space-between;
+    font: 20px;
 }
 
 .player .time-info {
@@ -284,5 +288,28 @@ Player section
     background-color: var(--litgrey);
 }
 
+.player .right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.player .volume {
+    height: var(--time-h);
+    width: 125px;
+    background-color: var(--mediumgrey);
+    border-radius: calc(var(--time-h) / 2);
+    position: relative;
+}
+
+.player .volume::before {
+    content: "";
+    position: absolute;
+    border-radius: calc(var(--time-h) / 2);
+    left: 0;
+    width: 75%;
+    height: var(--time-h);
+    background-color: var(--litgrey);
+}
 
 
