@@ -32,6 +32,7 @@ General Settings
     --xblack: rgba(0, 0, 0, 0.3);
     --drkgrey: #282828;
     --litgrey: #a3a3a3;
+    --mediumgrey: #5A5A5A;
     --night: #141922;
     --green: #adff2f;
 }
@@ -180,10 +181,6 @@ Menu bar
     margin-bottom: 0.5rem;
 }
 
-/* ul:first-child a{
-    color: white;
-} */
-
 .menubar .playlist {
     margin-top: 1.5rem;
     flex-grow: 1;
@@ -245,12 +242,46 @@ Player section
 
 .player .left {
     display: flex;
-    color: var(--litgrey)
+    color: var(--mediumgrey)
 }
 
 .player .left img {
     width: 45px;
     aspect-ratio: 1 / 1;
+}
+
+.player .middle {
+    color: white;
+}
+
+.player .media-controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.player .time-info {
+    display: flex;
+    align-items: center;
+}
+
+.player .timeline {
+    --time-h: 6px;
+
+    height: var(--time-h);
+    width: 425px;
+    background-color: var(--mediumgrey);
+    border-radius: calc(var(--time-h) / 2);
+    position: relative;
+}
+
+.player .timeline::before {
+    content: "";
+    position: absolute;
+    border-radius: calc(var(--time-h) / 2);
+    left: 0;
+    width: 25%;
+    height: var(--time-h);
+    background-color: var(--litgrey);
 }
 
 
