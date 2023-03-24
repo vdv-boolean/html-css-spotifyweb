@@ -234,8 +234,24 @@ Menu bar
     color: white;
 }
 
+/***********************
+Player section
+***********************/
 
+.player {
+    display: flex;
+    align-items: center;
+}
 
+.player .left {
+    display: flex;
+    color: var(--litgrey)
+}
+
+.player .left img {
+    width: 45px;
+    aspect-ratio: 1 / 1;
+}
 
 
 
