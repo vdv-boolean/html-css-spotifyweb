@@ -292,6 +292,29 @@ Player section
     background-color: var(--litgrey);
 }
 
+.player .timeline::after{
+    content: "";
+    position: absolute;
+    border-radius: calc(var(--time-h) / 2);
+    left: calc(25% - var(--time-h));
+    bottom: -50%;
+    width: calc(var(--time-h) * 2);
+    height: calc(var(--time-h) * 2);
+    border-radius: var(--time-h);
+    background-color: white;
+    opacity: 0%;
+}
+
+.player .timeline:hover::before {
+    background-color: var(--green);
+    cursor: pointer;
+}
+
+.player .timeline:hover::after {
+    opacity: 100%;
+    cursor: pointer;
+}
+
 .player .right {
     display: flex;
     align-items: center;
